@@ -5,16 +5,31 @@
 
 Contributors: Kat, Edyta, Mica and Mitch
 
-## User Stories
+### User Stories
+
+**MVP**
 
 ```
-As an owner, I can list a space with a name, price, and description, so that rentees know about my space
-As a rentee, I can click on a space to see full details and make a booking, so that I only see information about a property I'm interested in
-As an owner, I can list multiple spaces, so that I can rent multiple properties
-As a rentee, I can view spaces listed on MakersBnB, so that I can see where I want to stay
-As a signed up rentee, I can request a space for one night, so that I can have a weekend away
+As an owner,
+I can list a space with a name, price, and description,
+so that rentees know about my space
 
------------------------------------ MVP LINE -------------------------------------
+As a rentee,
+I can click on a space to see full details and make a booking,
+so that I only see information about a property I'm interested in
+
+As an owner,
+I can list multiple spaces,
+so that I can rent multiple properties
+
+As a rentee,
+I can view spaces listed on MakersBnB,
+so that I can see where I want to stay
+
+As a signed up rentee,
+I can request a space for one night,
+so that I can have a weekend away
+```
 
 As a user, I can log out of my account, so that only I can make bookings
 As an owner, I can list a space with available dates in one time window, so that people don't book it when its not available
