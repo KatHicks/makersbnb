@@ -1,7 +1,7 @@
 # MakersBnB
 ### Makers Academy Week No. 6
 
-[![Code Climate](https://codeclimate.com/github/KatHicks/makersbnb/badges/gpa.svg)](https://codeclimate.com/github/KatHicks/makersbnb)
+[![Build Status](https://travis-ci.org/KatHicks/makersbnb.svg?branch=master)](https://travis-ci.org/KatHicks/makersbnb) [![Code Climate](https://codeclimate.com/github/KatHicks/makersbnb/badges/gpa.svg)](https://codeclimate.com/github/KatHicks/makersbnb)
 
 Contributors: Kat, Edyta, Mica and Mitch
 
