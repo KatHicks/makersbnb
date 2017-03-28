@@ -5,12 +5,14 @@
 
 **Built by [Mica Whitby](https://github.com/MicaW), [Kat Hicks](https://github.com/KatHicks), [Edyta Wrobel](https://github.com/edytawrobel) and [Mitch Goldbay](https://github.com/mbgimot) in 5 days at Makers Academy**
 
+![Screenshot of landing page](/screenshot.png?raw=true "Screenshot of landing page")
+
 ### Instructions
 
 > * You'll work in teams to build a clone of Airbnb
 > * You'll organise your own work
-> * We would like a web application that allows users to list spaces they have available, and to hire spaces for the night.
-> * Your coach will be around as usual.
+> * We would like a web application that allows users to list spaces they have available, and to hire spaces for the night
+> * Your coach will be around as usual
 
 ### User Stories
 
@@ -119,3 +121,48 @@ I want to add an image of my space.
 * **Can you, with only a specification to guide you, work as part of a team to build a web app?**
 
 ### Using our app
+
+* You can view our app at [cabinbnb.herokuapp.com](http://cabinbnb.herokuapp.com/)
+
+### Running the tests
+
+* If you do not have PostgreSQL installed, you will need to install it using the command `$ brew install postgresql`
+* Enter the PostgreSQL console by typing `$ psql`
+* Create two databases with the commands `$ create database makersbnb_test` and `$ create database makersbnb_development`
+* Clone this repository using `$ git clone`
+* Navigate into the directory using `$ cd makersbnb`
+* Run `$ bundle` to install all the dependencies listed in the Gemfile
+* **After all this setup is complete, you should be able to run the tests in the command line with `$ rspec`**
+
+### Technologies
+
+* Written using **Ruby 2.3.3** with **Sinatra** as the web framework
+* Built off of a **PostgreSQL** database with **DataMapper** as the ORM
+* Tested using **RSpec** and **Capybara**
+  * Also used **Orderly** to test the order of content on the page
+* Used the **BCrypt** gem for password encryption
+* Deployed using **Heroku**
+
+### Approach
+
+* **Planning**
+  * We spent the whole first day just on planning
+  * Dedicated a lot of time to compiling all our user stories and mapping out our domain model
+* **Reaching MVP**
+  * Planning paid off and we reached MVP very quickly
+* **Additional features**
+  * After reaching MVP, the two sets of pairs dedicated themselves to two separate additional features
+  * Additional features detailed below
+* **Multiple date ranges**
+  * One pair dedicated themselves to figuring out how to implement multiple date ranges for space availability
+  * One of the simplifications of MVP was that spaces could be listed as available for one night only i.e. they were either available or unavailable
+* **Image upload**
+  * The other pair then dedicated themselves to implementing image upload when listing a space
+  * We figured out how to do this after a days work without any assistance from external libraries or gems
+
+### Ideas for extension
+
+* **Finish styling**
+  * Currently the styling is only half finished so it would be good to add to it
+* **Email notification**
+  * One of the nice-to-have specifications was integrating an API so that email notifications were sent after certain actions in the app - would be nice to implement this feature
